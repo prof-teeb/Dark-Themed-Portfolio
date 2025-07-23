@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "circletype": "^2.3.0",
+    "core-js": "^3.44.0",
     "framer-motion": "^12.23.6",
     "gsap": "^3.13.0",
     "next": "15.4.2",

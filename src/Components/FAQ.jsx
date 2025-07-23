@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'phosphor-react';
-import AnimatedSection from '@/components/ui/AnimatedSection';
-import GlassCard from '@/components/ui/GlassCard';
+import AnimatedSection from './UI/AnimatedSection';
+import GlassCard from './UI/GlassCard';
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);

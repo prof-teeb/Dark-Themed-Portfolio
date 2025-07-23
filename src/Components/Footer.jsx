@@ -16,7 +16,7 @@ const Footer = () => {
           <span className="text-white/90">Create Something Remarkable</span>
         </h2>
         <p className="text-white/80 text-base md:text-lg max-w-xl mx-auto">
-          Got a project, idea or just want to connect? Let's make it happen.
+          Got a project, idea or just want to connefsfsfct? Let's make it happen.
         </p>
       </div>
 
