@@ -72,7 +72,7 @@ const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Link href="/Muteeb-Resume.pdf" download>
+            <Link href="/resume">
               <button className="px-5 py-2 bg-white/10 text-white rounded-full font-semibold shadow-md backdrop-blur-md hover:bg-white/20 hover:scale-105 transition duration-300">
                 Get Resume
               </button>

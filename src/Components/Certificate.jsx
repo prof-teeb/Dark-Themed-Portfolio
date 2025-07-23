@@ -58,19 +58,21 @@ const Certificate = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
-      className="relative py-16 bg-black flex flex-col items-center text-white"
+      className="relative py-16 bg-black flex flex-col items-center h-screen bg-no-repeat bg-center text-white"
+      style={{ backgroundImage: "url('/herosection-bg.png')"}}
     >
+      <div className="absolute inset-0 bg-black/80 z-0" />
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.4, duration: 0.6 }}
-        className="mb-6"
+        className="mb-6 relative"
       >
         <GiWineGlass size={40} />
       </motion.div>
 
       <motion.h1
-        className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-10 space-y-2 text-center"
+        className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight space-y-2 text-center"
         initial="hidden"
         animate="visible"
         variants={{
@@ -85,7 +87,7 @@ const Certificate = () => {
                 <motion.span
                   key={refIndex}
                   ref={(el) => (headingRef.current[refIndex] = el)}
-                  className={`inline-block mx-1 ${
+                  className={`inline-block mx-1 relative ${
                     word === 'hated' ? 'text-[#E32375]' : ''
                   }`}
                   variants={{
