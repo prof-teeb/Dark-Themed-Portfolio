@@ -4,7 +4,9 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
+.glass-card {
+  @apply bg-white/5 border border-white/10 backdrop-blur-xl rounded-2xl;
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
